@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f60021068d63baf1b74e9c2416e90e35 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_f60021068d63baf1b74e9c2416e90e35" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_f60021068d63baf1b74e9c2416e90e35 = L.map(
+                "map_f60021068d63baf1b74e9c2416e90e35",
+                {
+                    center: [37.5665, 126.978],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_3174fba2e25535152d04a817e621c07f = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_3174fba2e25535152d04a817e621c07f.addTo(map_f60021068d63baf1b74e9c2416e90e35);
+        
+    
+            var marker_400e4e9f0ec4fadd1d296465089932c2 = L.marker(
+                [37.5695463, 126.9999438],
+                {}
+            ).addTo(map_f60021068d63baf1b74e9c2416e90e35);
+        
+    
+            var icon_58f8a12404b87a74cd6e47d327645db8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_400e4e9f0ec4fadd1d296465089932c2.setIcon(icon_58f8a12404b87a74cd6e47d327645db8);
+        
+    
+        var popup_5d128f3cf0239e547c1bd29dd8356887 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_4f3e24201844805d7f10ea840c5eabed = $(`<div id="html_4f3e24201844805d7f10ea840c5eabed" style="width: 100.0%; height: 100.0%;">             <div style="width:200px">                 <h4>아베베 베이커리 서울</h4>                 <p><b>Reviews:</b> 8321</p>                 <p>서울특별시 종로구 청계천로 201 1, 2, 3층</p>             </div>             </div>`)[0];
+                popup_5d128f3cf0239e547c1bd29dd8356887.setContent(html_4f3e24201844805d7f10ea840c5eabed);
+            
+        
+
+        marker_400e4e9f0ec4fadd1d296465089932c2.bindPopup(popup_5d128f3cf0239e547c1bd29dd8356887)
+        ;
+
+        
+    
+    
+            marker_400e4e9f0ec4fadd1d296465089932c2.bindTooltip(
+                `<div>
+                     아베베 베이커리 서울 (8321 reviews)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e16f1352052539bee3a131881380bf2c = L.marker(
+                [37.561526, 126.9272585],
+                {}
+            ).addTo(map_f60021068d63baf1b74e9c2416e90e35);
+        
+    
+            var icon_00b9350dc3700201b24688aed75d267f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_e16f1352052539bee3a131881380bf2c.setIcon(icon_00b9350dc3700201b24688aed75d267f);
+        
+    
+        var popup_4dc1d4bffc0013d4b033fca39c352555 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_6d9b1dd201b723864bf943367ed36852 = $(`<div id="html_6d9b1dd201b723864bf943367ed36852" style="width: 100.0%; height: 100.0%;">             <div style="width:200px">                 <h4>만동제과 연남점</h4>                 <p><b>Reviews:</b> 5623</p>                 <p>서울특별시 서대문구 연희로 32</p>             </div>             </div>`)[0];
+                popup_4dc1d4bffc0013d4b033fca39c352555.setContent(html_6d9b1dd201b723864bf943367ed36852);
+            
+        
+
+        marker_e16f1352052539bee3a131881380bf2c.bindPopup(popup_4dc1d4bffc0013d4b033fca39c352555)
+        ;
+
+        
+    
+    
+            marker_e16f1352052539bee3a131881380bf2c.bindTooltip(
+                `<div>
+                     만동제과 연남점 (5623 reviews)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5bcf232fd38fa8457c85639b1bdc2a32 = L.marker(
+                [37.5386535, 127.001938],
+                {}
+            ).addTo(map_f60021068d63baf1b74e9c2416e90e35);
+        
+    
+            var icon_c0879b9a41280f9cf8c486b307704ca4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_5bcf232fd38fa8457c85639b1bdc2a32.setIcon(icon_c0879b9a41280f9cf8c486b307704ca4);
+        
+    
+        var popup_f3d6593b30c0342c073c946dbd421552 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_a129d10ea3f9d1337f07a00676c195fc = $(`<div id="html_a129d10ea3f9d1337f07a00676c195fc" style="width: 100.0%; height: 100.0%;">             <div style="width:200px">                 <h4>패션5</h4>                 <p><b>Reviews:</b> 4567</p>                 <p>서울특별시 용산구 이태원로 272 패션5 1층</p>             </div>             </div>`)[0];
+                popup_f3d6593b30c0342c073c946dbd421552.setContent(html_a129d10ea3f9d1337f07a00676c195fc);
+            
+        
+
+        marker_5bcf232fd38fa8457c85639b1bdc2a32.bindPopup(popup_f3d6593b30c0342c073c946dbd421552)
+        ;
+
+        
+    
+    
+            marker_5bcf232fd38fa8457c85639b1bdc2a32.bindTooltip(
+                `<div>
+                     패션5 (4567 reviews)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_16c6096b183b53ab48ab8eaca6b71445 = L.marker(
+                [37.5550335, 126.9060383],
+                {}
+            ).addTo(map_f60021068d63baf1b74e9c2416e90e35);
+        
+    
+            var icon_c8008f534cb0d971647d49c5181a3547 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_16c6096b183b53ab48ab8eaca6b71445.setIcon(icon_c8008f534cb0d971647d49c5181a3547);
+        
+    
+        var popup_ddac95f0907219b01040915c183388de = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_61adc0492e1740b47fe0195c4ba19b3a = $(`<div id="html_61adc0492e1740b47fe0195c4ba19b3a" style="width: 100.0%; height: 100.0%;">             <div style="width:200px">                 <h4>어글리베이커리</h4>                 <p><b>Reviews:</b> 4264</p>                 <p>서울특별시 마포구 월드컵로13길 73 1층 어글리 베이커리</p>             </div>             </div>`)[0];
+                popup_ddac95f0907219b01040915c183388de.setContent(html_61adc0492e1740b47fe0195c4ba19b3a);
+            
+        
+
+        marker_16c6096b183b53ab48ab8eaca6b71445.bindPopup(popup_ddac95f0907219b01040915c183388de)
+        ;
+
+        
+    
+    
+            marker_16c6096b183b53ab48ab8eaca6b71445.bindTooltip(
+                `<div>
+                     어글리베이커리 (4264 reviews)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4cb18abc6acc08020f619aba25b6a9a0 = L.marker(
+                [37.5742708, 126.9908703],
+                {}
+            ).addTo(map_f60021068d63baf1b74e9c2416e90e35);
+        
+    
+            var icon_2b70e044ee9e92812dde912dc0e4f2c5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_4cb18abc6acc08020f619aba25b6a9a0.setIcon(icon_2b70e044ee9e92812dde912dc0e4f2c5);
+        
+    
+        var popup_d22cfb7e3c254d42a054c137c57734ee = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_106ef991eaf0d313b8a5018cda9fbd4e = $(`<div id="html_106ef991eaf0d313b8a5018cda9fbd4e" style="width: 100.0%; height: 100.0%;">             <div style="width:200px">                 <h4>문화제빵</h4>                 <p><b>Reviews:</b> 3295</p>                 <p>서울특별시 종로구 돈화문로 65 1층</p>             </div>             </div>`)[0];
+                popup_d22cfb7e3c254d42a054c137c57734ee.setContent(html_106ef991eaf0d313b8a5018cda9fbd4e);
+            
+        
+
+        marker_4cb18abc6acc08020f619aba25b6a9a0.bindPopup(popup_d22cfb7e3c254d42a054c137c57734ee)
+        ;
+
+        
+    
+    
+            marker_4cb18abc6acc08020f619aba25b6a9a0.bindTooltip(
+                `<div>
+                     문화제빵 (3295 reviews)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ff561eedf8f56dd9ba2c0fc9d9123a11 = L.marker(
+                [37.5799955, 126.9715365],
+                {}
+            ).addTo(map_f60021068d63baf1b74e9c2416e90e35);
+        
+    
+            var icon_60bd86ac56fad14a8f0eaccdbb7d02fa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_ff561eedf8f56dd9ba2c0fc9d9123a11.setIcon(icon_60bd86ac56fad14a8f0eaccdbb7d02fa);
+        
+    
+        var popup_53aeba3acc870877e6ab173474bb0290 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_5497bcc13a21db7dfbab643a759d1677 = $(`<div id="html_5497bcc13a21db7dfbab643a759d1677" style="width: 100.0%; height: 100.0%;">             <div style="width:200px">                 <h4>라파리나 서촌본점</h4>                 <p><b>Reviews:</b> 2816</p>                 <p>서울특별시 종로구 자하문로 44 라파리나</p>             </div>             </div>`)[0];
+                popup_53aeba3acc870877e6ab173474bb0290.setContent(html_5497bcc13a21db7dfbab643a759d1677);
+            
+        
+
+        marker_ff561eedf8f56dd9ba2c0fc9d9123a11.bindPopup(popup_53aeba3acc870877e6ab173474bb0290)
+        ;
+
+        
+    
+    
+            marker_ff561eedf8f56dd9ba2c0fc9d9123a11.bindTooltip(
+                `<div>
+                     라파리나 서촌본점 (2816 reviews)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ea4922a9f79227cb1c6d2c2bef2b6d50 = L.marker(
+                [37.5809361, 126.9686596],
+                {}
+            ).addTo(map_f60021068d63baf1b74e9c2416e90e35);
+        
+    
+            var icon_8a9df391c342d4fc772fb044023ff81f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_ea4922a9f79227cb1c6d2c2bef2b6d50.setIcon(icon_8a9df391c342d4fc772fb044023ff81f);
+        
+    
+        var popup_72cedc26a72a1a2c954945692ef0c493 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_d2c169ae8a5f7d58e34e7dbd470dd4fc = $(`<div id="html_d2c169ae8a5f7d58e34e7dbd470dd4fc" style="width: 100.0%; height: 100.0%;">             <div style="width:200px">                 <h4>효자베이커리</h4>                 <p><b>Reviews:</b> 1640</p>                 <p>서울특별시 종로구 필운대로 54</p>             </div>             </div>`)[0];
+                popup_72cedc26a72a1a2c954945692ef0c493.setContent(html_d2c169ae8a5f7d58e34e7dbd470dd4fc);
+            
+        
+
+        marker_ea4922a9f79227cb1c6d2c2bef2b6d50.bindPopup(popup_72cedc26a72a1a2c954945692ef0c493)
+        ;
+
+        
+    
+    
+            marker_ea4922a9f79227cb1c6d2c2bef2b6d50.bindTooltip(
+                `<div>
+                     효자베이커리 (1640 reviews)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_70aa746f5255f7e32652c86a34d83d74 = L.marker(
+                [37.5487011, 126.9551043],
+                {}
+            ).addTo(map_f60021068d63baf1b74e9c2416e90e35);
+        
+    
+            var icon_88727c57893995de611b87511e9cad0f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_70aa746f5255f7e32652c86a34d83d74.setIcon(icon_88727c57893995de611b87511e9cad0f);
+        
+    
+        var popup_07939d6a98f2779aa22680601e720b60 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_5c032eb6b001e33e7bab5c7ad1a9e78c = $(`<div id="html_5c032eb6b001e33e7bab5c7ad1a9e78c" style="width: 100.0%; height: 100.0%;">             <div style="width:200px">                 <h4>비파티세리 공덕점</h4>                 <p><b>Reviews:</b> 1585</p>                 <p>서울특별시 마포구 마포대로14길 4 1층</p>             </div>             </div>`)[0];
+                popup_07939d6a98f2779aa22680601e720b60.setContent(html_5c032eb6b001e33e7bab5c7ad1a9e78c);
+            
+        
+
+        marker_70aa746f5255f7e32652c86a34d83d74.bindPopup(popup_07939d6a98f2779aa22680601e720b60)
+        ;
+
+        
+    
+    
+            marker_70aa746f5255f7e32652c86a34d83d74.bindTooltip(
+                `<div>
+                     비파티세리 공덕점 (1585 reviews)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_60de890a4cea3a16a3fbdeeacbeaa918 = L.marker(
+                [37.621478, 127.0751307],
+                {}
+            ).addTo(map_f60021068d63baf1b74e9c2416e90e35);
+        
+    
+            var icon_768b42c9b909f8d95e76244bbbc05a89 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_60de890a4cea3a16a3fbdeeacbeaa918.setIcon(icon_768b42c9b909f8d95e76244bbbc05a89);
+        
+    
+        var popup_0add3499ae816d7b835608a218fb3dea = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_71fa815ea9c14687122e39351eabe5c7 = $(`<div id="html_71fa815ea9c14687122e39351eabe5c7" style="width: 100.0%; height: 100.0%;">             <div style="width:200px">                 <h4>메트로폴리스</h4>                 <p><b>Reviews:</b> 1132</p>                 <p>서울특별시 노원구 동일로178길 11-9 1층 MET</p>             </div>             </div>`)[0];
+                popup_0add3499ae816d7b835608a218fb3dea.setContent(html_71fa815ea9c14687122e39351eabe5c7);
+            
+        
+
+        marker_60de890a4cea3a16a3fbdeeacbeaa918.bindPopup(popup_0add3499ae816d7b835608a218fb3dea)
+        ;
+
+        
+    
+    
+            marker_60de890a4cea3a16a3fbdeeacbeaa918.bindTooltip(
+                `<div>
+                     메트로폴리스 (1132 reviews)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_50190d9f5168bd544979cd9e7bc93fe9 = L.marker(
+                [37.53965, 126.9669003],
+                {}
+            ).addTo(map_f60021068d63baf1b74e9c2416e90e35);
+        
+    
+            var icon_56532386057a05abb402a30f8e91cf4e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_50190d9f5168bd544979cd9e7bc93fe9.setIcon(icon_56532386057a05abb402a30f8e91cf4e);
+        
+    
+        var popup_8941dbb6ddc34b242e869b41c961f1c8 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_0fbc24287f96f0b9fad25dc471b08dc0 = $(`<div id="html_0fbc24287f96f0b9fad25dc471b08dc0" style="width: 100.0%; height: 100.0%;">             <div style="width:200px">                 <h4>베이커리무이</h4>                 <p><b>Reviews:</b> 978</p>                 <p>서울특별시 용산구 원효로81길 17 1층</p>             </div>             </div>`)[0];
+                popup_8941dbb6ddc34b242e869b41c961f1c8.setContent(html_0fbc24287f96f0b9fad25dc471b08dc0);
+            
+        
+
+        marker_50190d9f5168bd544979cd9e7bc93fe9.bindPopup(popup_8941dbb6ddc34b242e869b41c961f1c8)
+        ;
+
+        
+    
+    
+            marker_50190d9f5168bd544979cd9e7bc93fe9.bindTooltip(
+                `<div>
+                     베이커리무이 (978 reviews)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_124950ef4897479e4c284eca2c7e5816 = L.marker(
+                [37.5430274, 127.0707631],
+                {}
+            ).addTo(map_f60021068d63baf1b74e9c2416e90e35);
+        
+    
+            var icon_d5affb49fe3692d6de2954e18b1a97e9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_124950ef4897479e4c284eca2c7e5816.setIcon(icon_d5affb49fe3692d6de2954e18b1a97e9);
+        
+    
+        var popup_1aa698034310fcb35737cc5f1ed19959 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_e111dca8710df8c45ca80cb58055b36b = $(`<div id="html_e111dca8710df8c45ca80cb58055b36b" style="width: 100.0%; height: 100.0%;">             <div style="width:200px">                 <h4>릴리베이커리</h4>                 <p><b>Reviews:</b> 964</p>                 <p>서울특별시 광진구 능동로13길 21 1층 릴리베이커리(김밥천국바로옆)-지하X</p>             </div>             </div>`)[0];
+                popup_1aa698034310fcb35737cc5f1ed19959.setContent(html_e111dca8710df8c45ca80cb58055b36b);
+            
+        
+
+        marker_124950ef4897479e4c284eca2c7e5816.bindPopup(popup_1aa698034310fcb35737cc5f1ed19959)
+        ;
+
+        
+    
+    
+            marker_124950ef4897479e4c284eca2c7e5816.bindTooltip(
+                `<div>
+                     릴리베이커리 (964 reviews)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7cb72a6c5efaccdd52e35611992d9c9b = L.marker(
+                [37.5600148, 126.9239956],
+                {}
+            ).addTo(map_f60021068d63baf1b74e9c2416e90e35);
+        
+    
+            var icon_6f86e265b28c4ae3807a5b56d18ba9ae = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_7cb72a6c5efaccdd52e35611992d9c9b.setIcon(icon_6f86e265b28c4ae3807a5b56d18ba9ae);
+        
+    
+        var popup_b6084cd65817c53fe7fafd4306221cc9 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_da6bfc0d12117441a0fcd81627524a11 = $(`<div id="html_da6bfc0d12117441a0fcd81627524a11" style="width: 100.0%; height: 100.0%;">             <div style="width:200px">                 <h4>버터베이커리</h4>                 <p><b>Reviews:</b> 945</p>                 <p>서울특별시 마포구 동교로 226</p>             </div>             </div>`)[0];
+                popup_b6084cd65817c53fe7fafd4306221cc9.setContent(html_da6bfc0d12117441a0fcd81627524a11);
+            
+        
+
+        marker_7cb72a6c5efaccdd52e35611992d9c9b.bindPopup(popup_b6084cd65817c53fe7fafd4306221cc9)
+        ;
+
+        
+    
+    
+            marker_7cb72a6c5efaccdd52e35611992d9c9b.bindTooltip(
+                `<div>
+                     버터베이커리 (945 reviews)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4f29322b651ae3a77b6e82ec1f500736 = L.marker(
+                [37.5268857, 127.0293587],
+                {}
+            ).addTo(map_f60021068d63baf1b74e9c2416e90e35);
+        
+    
+            var icon_fd7c7e64b61f4c4582b4b22e1f4a9ebc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_4f29322b651ae3a77b6e82ec1f500736.setIcon(icon_fd7c7e64b61f4c4582b4b22e1f4a9ebc);
+        
+    
+        var popup_50a4c980062cd6d366fe6cc75bdfbc7b = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_7bc41d3a4a38af587f99ec2ce8af3ef3 = $(`<div id="html_7bc41d3a4a38af587f99ec2ce8af3ef3" style="width: 100.0%; height: 100.0%;">             <div style="width:200px">                 <h4>노아베이커리 압구정점</h4>                 <p><b>Reviews:</b> 916</p>                 <p>서울특별시 강남구 압구정로30길 9</p>             </div>             </div>`)[0];
+                popup_50a4c980062cd6d366fe6cc75bdfbc7b.setContent(html_7bc41d3a4a38af587f99ec2ce8af3ef3);
+            
+        
+
+        marker_4f29322b651ae3a77b6e82ec1f500736.bindPopup(popup_50a4c980062cd6d366fe6cc75bdfbc7b)
+        ;
+
+        
+    
+    
+            marker_4f29322b651ae3a77b6e82ec1f500736.bindTooltip(
+                `<div>
+                     노아베이커리 압구정점 (916 reviews)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ca483f62351ef7b4b0bb3b5eee71f85f = L.marker(
+                [37.5500414, 126.9374655],
+                {}
+            ).addTo(map_f60021068d63baf1b74e9c2416e90e35);
+        
+    
+            var icon_69581206a39c92bc3dd2aebd89b978d6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_ca483f62351ef7b4b0bb3b5eee71f85f.setIcon(icon_69581206a39c92bc3dd2aebd89b978d6);
+        
+    
+        var popup_2ec7464b424cad1b9f2b1f08a73f96af = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_56d870f1d837a659f879149de2232bac = $(`<div id="html_56d870f1d837a659f879149de2232bac" style="width: 100.0%; height: 100.0%;">             <div style="width:200px">                 <h4>포닐</h4>                 <p><b>Reviews:</b> 827</p>                 <p>서울특별시 마포구 광성로 41-3 C동 1층</p>             </div>             </div>`)[0];
+                popup_2ec7464b424cad1b9f2b1f08a73f96af.setContent(html_56d870f1d837a659f879149de2232bac);
+            
+        
+
+        marker_ca483f62351ef7b4b0bb3b5eee71f85f.bindPopup(popup_2ec7464b424cad1b9f2b1f08a73f96af)
+        ;
+
+        
+    
+    
+            marker_ca483f62351ef7b4b0bb3b5eee71f85f.bindTooltip(
+                `<div>
+                     포닐 (827 reviews)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_aba7ce6316c9612b905c8187d8c3e3ff = L.marker(
+                [37.5780065, 126.9716282],
+                {}
+            ).addTo(map_f60021068d63baf1b74e9c2416e90e35);
+        
+    
+            var icon_5313bc8541d4a6956dad7d4649264909 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_aba7ce6316c9612b905c8187d8c3e3ff.setIcon(icon_5313bc8541d4a6956dad7d4649264909);
+        
+    
+        var popup_22c98d217929403f0c364a81df2a5b64 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_769966f1dd640d904d9229c5faedef11 = $(`<div id="html_769966f1dd640d904d9229c5faedef11" style="width: 100.0%; height: 100.0%;">             <div style="width:200px">                 <h4>김용현베이커리</h4>                 <p><b>Reviews:</b> 809</p>                 <p>서울특별시 종로구 자하문로 21 1층</p>             </div>             </div>`)[0];
+                popup_22c98d217929403f0c364a81df2a5b64.setContent(html_769966f1dd640d904d9229c5faedef11);
+            
+        
+
+        marker_aba7ce6316c9612b905c8187d8c3e3ff.bindPopup(popup_22c98d217929403f0c364a81df2a5b64)
+        ;
+
+        
+    
+    
+            marker_aba7ce6316c9612b905c8187d8c3e3ff.bindTooltip(
+                `<div>
+                     김용현베이커리 (809 reviews)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_249ed832e5d15034fd1ea41339a2b3e7 = L.marker(
+                [37.5585152, 126.943142],
+                {}
+            ).addTo(map_f60021068d63baf1b74e9c2416e90e35);
+        
+    
+            var icon_f4dd22df1c60a867d6299d5088003c67 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_249ed832e5d15034fd1ea41339a2b3e7.setIcon(icon_f4dd22df1c60a867d6299d5088003c67);
+        
+    
+        var popup_a33ecf68535f88ee8a81ba338fa883e6 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_662cad6ab98fb902dbf362f977a81b04 = $(`<div id="html_662cad6ab98fb902dbf362f977a81b04" style="width: 100.0%; height: 100.0%;">             <div style="width:200px">                 <h4>비밀베이커리 이대점</h4>                 <p><b>Reviews:</b> 783</p>                 <p>서울특별시 서대문구 이화여대7길 48 1층 비밀베이커리</p>             </div>             </div>`)[0];
+                popup_a33ecf68535f88ee8a81ba338fa883e6.setContent(html_662cad6ab98fb902dbf362f977a81b04);
+            
+        
+
+        marker_249ed832e5d15034fd1ea41339a2b3e7.bindPopup(popup_a33ecf68535f88ee8a81ba338fa883e6)
+        ;
+
+        
+    
+    
+            marker_249ed832e5d15034fd1ea41339a2b3e7.bindTooltip(
+                `<div>
+                     비밀베이커리 이대점 (783 reviews)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6d111f723a2afb61db781389e727f7ac = L.marker(
+                [37.489137, 127.142495],
+                {}
+            ).addTo(map_f60021068d63baf1b74e9c2416e90e35);
+        
+    
+            var icon_828124cd0abc3821d481272d5ee51426 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_6d111f723a2afb61db781389e727f7ac.setIcon(icon_828124cd0abc3821d481272d5ee51426);
+        
+    
+        var popup_f58727229fc578f0c97068d467d305c3 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_b959fca393b8e1f0bef6a323f05b9590 = $(`<div id="html_b959fca393b8e1f0bef6a323f05b9590" style="width: 100.0%; height: 100.0%;">             <div style="width:200px">                 <h4>밀파니</h4>                 <p><b>Reviews:</b> 764</p>                 <p>서울특별시 송파구 위례서로 273 밀파니 타워 1층, 2층</p>             </div>             </div>`)[0];
+                popup_f58727229fc578f0c97068d467d305c3.setContent(html_b959fca393b8e1f0bef6a323f05b9590);
+            
+        
+
+        marker_6d111f723a2afb61db781389e727f7ac.bindPopup(popup_f58727229fc578f0c97068d467d305c3)
+        ;
+
+        
+    
+    
+            marker_6d111f723a2afb61db781389e727f7ac.bindTooltip(
+                `<div>
+                     밀파니 (764 reviews)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7c0408df6a4324d40ebd513aa9fec513 = L.marker(
+                [37.5508788, 126.8369648],
+                {}
+            ).addTo(map_f60021068d63baf1b74e9c2416e90e35);
+        
+    
+            var icon_91feb88724f863427fcc84867d6c48c7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_7c0408df6a4324d40ebd513aa9fec513.setIcon(icon_91feb88724f863427fcc84867d6c48c7);
+        
+    
+        var popup_fcbcf1165a4dae702437202110b0eb60 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_a616d58d3d0dd518c0065acceaaacc20 = $(`<div id="html_a616d58d3d0dd518c0065acceaaacc20" style="width: 100.0%; height: 100.0%;">             <div style="width:200px">                 <h4>타르데마 베이커리 우장산</h4>                 <p><b>Reviews:</b> 621</p>                 <p>서울특별시 강서구 강서로46길 9</p>             </div>             </div>`)[0];
+                popup_fcbcf1165a4dae702437202110b0eb60.setContent(html_a616d58d3d0dd518c0065acceaaacc20);
+            
+        
+
+        marker_7c0408df6a4324d40ebd513aa9fec513.bindPopup(popup_fcbcf1165a4dae702437202110b0eb60)
+        ;
+
+        
+    
+    
+            marker_7c0408df6a4324d40ebd513aa9fec513.bindTooltip(
+                `<div>
+                     타르데마 베이커리 우장산 (621 reviews)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_382cc612123ba12cbc9f340574fce42e = L.marker(
+                [37.4920154, 126.990104],
+                {}
+            ).addTo(map_f60021068d63baf1b74e9c2416e90e35);
+        
+    
+            var icon_75c2c9a67f156c4fb91ef5a7c7563830 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_382cc612123ba12cbc9f340574fce42e.setIcon(icon_75c2c9a67f156c4fb91ef5a7c7563830);
+        
+    
+        var popup_5e6059d4c4e874540ac3e2200bc6d1e7 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_e2470f3aa33ea283cd9b75c91db40444 = $(`<div id="html_e2470f3aa33ea283cd9b75c91db40444" style="width: 100.0%; height: 100.0%;">             <div style="width:200px">                 <h4>누아주베이커리 방배본점</h4>                 <p><b>Reviews:</b> 301</p>                 <p>서울특별시 서초구 서초대로23길 112 1층 누아주베이커리</p>             </div>             </div>`)[0];
+                popup_5e6059d4c4e874540ac3e2200bc6d1e7.setContent(html_e2470f3aa33ea283cd9b75c91db40444);
+            
+        
+
+        marker_382cc612123ba12cbc9f340574fce42e.bindPopup(popup_5e6059d4c4e874540ac3e2200bc6d1e7)
+        ;
+
+        
+    
+    
+            marker_382cc612123ba12cbc9f340574fce42e.bindTooltip(
+                `<div>
+                     누아주베이커리 방배본점 (301 reviews)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c532ba81d2cf1da642fabc4508ef5373 = L.marker(
+                [37.569479, 126.9831475],
+                {}
+            ).addTo(map_f60021068d63baf1b74e9c2416e90e35);
+        
+    
+            var icon_fe9ca80f7145bc188a31c042e6e8b0d7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_c532ba81d2cf1da642fabc4508ef5373.setIcon(icon_fe9ca80f7145bc188a31c042e6e8b0d7);
+        
+    
+        var popup_f6f809d034f9ebddbf728d4c544a0173 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_6bd76c11c3ca61fa690a854ba388788f = $(`<div id="html_6bd76c11c3ca61fa690a854ba388788f" style="width: 100.0%; height: 100.0%;">             <div style="width:200px">                 <h4>베이커리 아궁</h4>                 <p><b>Reviews:</b> 261</p>                 <p>서울특별시 종로구 우정국로 6 1층</p>             </div>             </div>`)[0];
+                popup_f6f809d034f9ebddbf728d4c544a0173.setContent(html_6bd76c11c3ca61fa690a854ba388788f);
+            
+        
+
+        marker_c532ba81d2cf1da642fabc4508ef5373.bindPopup(popup_f6f809d034f9ebddbf728d4c544a0173)
+        ;
+
+        
+    
+    
+            marker_c532ba81d2cf1da642fabc4508ef5373.bindTooltip(
+                `<div>
+                     베이커리 아궁 (261 reviews)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

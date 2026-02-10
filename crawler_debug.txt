@@ -1,0 +1,219 @@
+Navigating to search: 서울 빵집
+[API] Captured: 효자베이커리
+[API] Captured: 어글리베이커리
+[API] Captured: 타르데마 베이커리 우장산
+[API] Captured: 메트로폴리스
+[API] Captured: 노아베이커리 압구정점
+[API] Captured: 문화제빵
+[API] Captured: 베이커리무이
+[API] Captured: 아베베 베이커리 서울
+[API] Captured: 버터베이커리
+[API] Captured: 비파티세리 공덕점
+[API] Captured: 비밀베이커리 이대점
+[API] Captured: 밀파니
+[API] Captured: 누아주베이커리 방배본점
+[API] Captured: 김용현베이커리
+[API] Captured: 베이커리 아궁
+[API] Captured: 만동제과 연남점
+[API] Captured: 패션5
+[API] Captured: 릴리베이커리
+[API] Captured: 포닐
+[API] Captured: 라파리나 서촌본점
+Initial list loaded.
+Scrolled 1/1
+Finished scrolling. scraping DOM for ratings...
+DEBUG: First item HTML:
+<div class="CHC5F"><div class="SgjqM"><a href="#" target="_self" role="button" class="place_bluelink YTJkH CtW3e"><span class="TYaxT">희랑케이크</span><span class="W6IZ8"><span class="dThr8"><span class="place_blind">톡톡</span><svg xmlns="http://www.w3.org/2000/svg" width="37" height="16" class="place_label" aria-hidden="true"><path fill="#f0f7f4" class="place_label_bg" d="M2 0h33c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H2c-1.1 0-2-.9-2-2V2C0 .9.9 0 2 0z"></path><path fill="#03914d" class="place_label_icon_stroke" d="M7.64 7.96c0 .33-.27.6-.61.6s-.61-.27-.61-.6.27-.6.61-.6.61.27.61.6zm2.08 0c0 .33-.27.6-.61.6s-.61-.27-.61-.6.27-.6.61-.6.61.27.61.6zm2.08 0c0 .33-.27.6-.61.6s-.61-.27-.61-.6.27-.6.61-.6.61.27.61.6zM7.92 13c-.4 0-.81-.02-1.21-.07-.74-.1-1.47-.27-2.16-.51a.824.824 0 01-.52-.54.801.801 0 01.15-.73c.2-.25.37-.52.49-.81.06-.15.05-.33-.02-.48a4.7 4.7 0 01.98-5.48c1.94-1.85 5.07-1.83 6.98.04 1.88 1.94 1.84 5.05-.09 6.93a6.08 6.08 0 01-3.48 1.59c-.37.04-.75.06-1.13.06zm-3.09-1.34c.64.22 1.31.3...
+[DOM] Found: 희랑케이크
+톡톡
+케이크전문, Rating: 0.0
+[DOM] Found: 21케이크 강남본점
+톡톡
+케이크전문, Rating: 0.0
+[DOM] Found: 효자베이커리베이커리, Rating: 0.0
+[DOM] Found: 어글리베이커리베이커리, Rating: 0.0
+[DOM] Found: 타르데마 베이커리 우장산
+네이버페이
+예약
+톡톡
+쿠폰
+베이커리, Rating: 0.0
+[DOM] Found: 메트로폴리스베이커리, Rating: 0.0
+[DOM] Found: 노아베이커리 압구정점
+네이버페이
+예약
+베이커리, Rating: 0.0
+[DOM] Found: 문화제빵
+톡톡
+베이커리, Rating: 0.0
+[DOM] Found: 베이커리무이베이커리, Rating: 0.0
+[DOM] Found: 아베베 베이커리 서울베이커리, Rating: 0.0
+[DOM] Found: 버터베이커리베이커리, Rating: 0.0
+[DOM] Found: 비파티세리 공덕점
+네이버페이
+주문
+톡톡
+베이커리, Rating: 0.0
+[DOM] Found: 내 업체 등록하기, Rating: 0.0
+[DOM] Found: 21케이크 선릉삼성점케이크전문, Rating: 0.0
+[DOM] Found: 몰랑케이크케이크전문, Rating: 0.0
+[DOM] Found: 비밀베이커리 이대점베이커리, Rating: 0.0
+[DOM] Found: 밀파니베이커리, Rating: 0.0
+[DOM] Found: 누아주베이커리 방배본점
+네이버페이
+예약
+베이커리, Rating: 0.0
+[DOM] Found: 김용현베이커리베이커리, Rating: 0.0
+[DOM] Found: 베이커리 아궁
+예약
+베이커리, Rating: 0.0
+[DOM] Found: 만동제과 연남점
+네이버페이
+예약
+톡톡
+베이커리, Rating: 0.0
+[DOM] Found: 패션5
+네이버페이
+주문
+배달
+베이커리, Rating: 0.0
+[DOM] Found: 릴리베이커리
+배달
+베이커리, Rating: 0.0
+[DOM] Found: 포닐
+톡톡
+쿠폰
+베이커리, Rating: 0.0
+[DOM] Found: 라파리나 서촌본점베이커리, Rating: 0.0
+[DOM] Found: 블리스테이블 스타시티몰점
+네이버페이
+예약
+케이크전문, Rating: 0.0
+[DOM] Found: 핑크벌스데이 상도
+네이버페이
+예약
+톡톡
+쿠폰
+케이크전문, Rating: 0.0
+[DOM] Found: 악토버 베이커리베이커리, Rating: 0.0
+[DOM] Found: 플라워아티장베이커리 문정베이커리, Rating: 0.0
+[DOM] Found: 에뚜왈 가로수길점베이커리, Rating: 0.0
+[DOM] Found: 테니
+네이버페이
+예약
+베이커리, Rating: 0.0
+[DOM] Found: 알페도베이커리, Rating: 0.0
+[DOM] Found: 테디뵈르하우스 용산점
+톡톡
+쿠폰
+카페,디저트, Rating: 0.0
+[DOM] Found: 비파티세리 센트럴시티점
+네이버페이
+주문
+톡톡
+베이커리, Rating: 0.0
+[DOM] Found: 유어스베이크샵 목동본점
+네이버페이
+예약
+톡톡
+쿠폰
+베이커리, Rating: 0.0
+[DOM] Found: 타르데마 베이커리 방화
+네이버페이
+예약
+톡톡
+쿠폰
+베이커리, Rating: 0.0
+[DOM] Found: 랑블리베이커리베이커리, Rating: 0.0
+[DOM] Found: 오 디저트 월곡점
+네이버페이
+예약
+톡톡
+케이크전문, Rating: 0.0
+[DOM] Found: 구스베리베이커리, Rating: 0.0
+[DOM] Found: 왓어브레드 용산점카페,디저트, Rating: 0.0
+[DOM] Found: 아띠85도씨베이커리베이커리, Rating: 0.0
+[DOM] Found: 하츠베이커리 성수점베이커리, Rating: 0.0
+[DOM] Found: 키베이커리
+네이버페이
+주문
+베이커리, Rating: 0.0
+[DOM] Found: 커피진심베이커리
+톡톡
+베이커리, Rating: 0.0
+[DOM] Found: 빵의시간 목동본점
+네이버페이
+예약
+톡톡
+쿠폰
+베이커리, Rating: 0.0
+[DOM] Found: 비밀베이커리 잠실점베이커리, Rating: 0.0
+[DOM] Found: 아티스트베이커리 안국베이커리, Rating: 0.0
+[DOM] Found: 오쿠쿠베이커리 잠실본점
+네이버페이
+예약
+배달
+톡톡
+쿠폰
+카페,디저트, Rating: 0.0
+[DOM] Found: 더베이커스테이블베이커리, Rating: 0.0
+[DOM] Found: 인베이크샵
+네이버페이
+예약
+톡톡
+쿠폰
+베이커리, Rating: 0.0
+[DOM] Found: 라플레르 플로
+예약
+톡톡
+쿠폰
+케이크전문, Rating: 0.0
+[DOM] Found: 펀스터
+톡톡
+카페,디저트, Rating: 0.0
+[DOM] Found: 오뷔르베이커리
+네이버페이
+예약
+베이커리, Rating: 0.0
+[DOM] Found: 서울신라호텔 패스트리 부티크베이커리, Rating: 0.0
+[DOM] Found: 롯데호텔서울 델리카한스
+네이버페이
+예약
+베이커리, Rating: 0.0
+[DOM] Found: 인더매스 왕십리
+네이버페이
+예약
+톡톡
+베이커리, Rating: 0.0
+[DOM] Found: 오뜨르베이커리
+네이버페이
+예약
+베이커리, Rating: 0.0
+[DOM] Found: 베어스덴베이커리베이커리, Rating: 0.0
+[DOM] Found: 싸일러 용산
+톡톡
+베이커리, Rating: 0.0
+[DOM] Found: 베통 성수카페,디저트, Rating: 0.0
+[DOM] Found: 솜솜베이커리베이커리, Rating: 0.0
+[DOM] Found: 베라앤케이크케이크전문, Rating: 0.0
+[DOM] Found: 무우미 케이크
+네이버페이
+예약
+쿠폰
+케이크전문, Rating: 0.0
+[DOM] Found: 플라워아티장베이커리 가로수베이커리, Rating: 0.0
+[DOM] Found: 에트레베이크하우스베이커리, Rating: 0.0
+[DOM] Found: 도토리 용산점
+톡톡
+쿠폰
+카페,디저트, Rating: 0.0
+[DOM] Found: 퍼먼트
+톡톡
+베이커리, Rating: 0.0
+[DOM] Found: 러스트 베이커리베이커리, Rating: 0.0
+[DOM] Found: 마르케카페,디저트, Rating: 0.0
+[DOM] Found: 레자미오네뜨
+네이버페이
+베이커리, Rating: 0.0
+[DOM] Found: 셰프의 아이들베이커리, Rating: 0.0
+Saved 0 bakeries with rating >= 4.0 to bakeries.json
